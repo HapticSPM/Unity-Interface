@@ -10,7 +10,7 @@ public class SceneSwitcher : MonoBehaviour
     public Slider progressBar;  // Reference to the progress bar (slider)
 
 
-    private string[] scenes = { "i2atoms", "i1atom", "honeycomb", "BN", "Wse2", "onedefectWSe2", "twodefectsWSe2", "iline", "inatoms", "hi" }; // List of all the available surface scenes
+    private string[] scenes = { "i2atoms", "i1atom", "honeycomb", "BN", "WSe2", "onedefectWSe2", "twodefectsWSe2", "iline", "inatoms", "hi" }; // List of all the available surface scenes
     private int currentSceneIndex = 0; // Initialize the index of the first scene at 0
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

@@ -514,6 +514,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 2076932533}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 04d05a48520bcff4f9ab62f20e6ac145, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04d05a48520bcff4f9ab62f20e6ac145, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04d05a48520bcff4f9ab62f20e6ac145, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04d05a48520bcff4f9ab62f20e6ac145, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -551,6 +563,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 04d05a48520bcff4f9ab62f20e6ac145, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04d05a48520bcff4f9ab62f20e6ac145, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4967452246455248728, guid: 04d05a48520bcff4f9ab62f20e6ac145, type: 3}
@@ -635,12 +651,12 @@ MonoBehaviour:
   MaterialID: 0
   bGrabbing: 0
   hMass: 0
-  hStiffness: 0.19
-  hDamping: 0
+  hStiffness: 0.2
+  hDamping: 0.2
   hImpulseD: 0
   hViscosity: 0
-  hFrictionS: 0.18
-  hFrictionD: 0.13
+  hFrictionS: 0.1
+  hFrictionD: 0.1
   hConstForceDir: {x: 0, y: 0, z: 0}
   hConstForceMag: 0
   UseContactNormalCF: 0

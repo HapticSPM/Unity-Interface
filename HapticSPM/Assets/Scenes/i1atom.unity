@@ -387,7 +387,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8807183956698239106, guid: b026799bbfc83c24a83b887f3506653b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: -8807183956698239106, guid: b026799bbfc83c24a83b887f3506653b, type: 3}
       propertyPath: m_LocalScale.y
@@ -415,7 +415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8807183956698239106, guid: b026799bbfc83c24a83b887f3506653b, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b026799bbfc83c24a83b887f3506653b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -503,12 +503,12 @@ MonoBehaviour:
   MaterialID: 0
   bGrabbing: 0
   hMass: 0
-  hStiffness: 0.19
-  hDamping: 0
+  hStiffness: 0.2
+  hDamping: 0.2
   hImpulseD: 0
   hViscosity: 0
-  hFrictionS: 0.18
-  hFrictionD: 0.13
+  hFrictionS: 0.1
+  hFrictionD: 0.1
   hConstForceDir: {x: 0, y: 0, z: 0}
   hConstForceMag: 0
   UseContactNormalCF: 0

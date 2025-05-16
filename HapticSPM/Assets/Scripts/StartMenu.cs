@@ -4,7 +4,7 @@ using System.Collections;
 
 public class StartMenu : MonoBehaviour
 {
-    public string firstSimulationScene = "i2atoms"; // Set to your first atomic scene
+    private string firstSimulationScene = "onedefectWSe2"; // Set to your first atomic scene
     public AudioSource buttonClickSound; // Assign the sounds of clicking the start button
     public CanvasGroup startMenuCanvasGroup; // Reference to the CanvasGroup for fading out
     public float fadeDuration = 1.0f; // Duration of the fade-out effect
